@@ -80,13 +80,6 @@ export default {
   },
 
   props: {
-    /**
-     * The ID of the checkbox, needs to be unique on the page
-     */
-    fieldId: {
-      type: String,
-      default: '1'
-    },
 
     /**
      * v-Model Value

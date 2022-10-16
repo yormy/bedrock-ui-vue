@@ -3,15 +3,6 @@ import {isEmpty} from 'bedrock-core-vue'
 
 export default {
     props: {
-        /**
-         * The ID of the field, needs to be unique on the page
-         */
-        fieldId: {
-            type: String,
-            default: '1',
-            required: true,
-    },
-
     /**
      * The name of the field for passing to requests
      */
@@ -169,7 +160,10 @@ export default {
         }
 
         return '';
+    },
 
+    fieldId() {
+        return this.fieldName;
     },
   },
 
