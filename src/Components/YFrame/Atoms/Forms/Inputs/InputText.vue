@@ -3,6 +3,7 @@
     <ValidationProvider
         v-slot="{ dirty, valid, invalid, errors }"
         :name="label"
+        :vid="fieldId"
         :rules="rules"
         :ref="validationRef"
     >
@@ -33,7 +34,8 @@
           <div v-show="prefix" :class="mPrepostFix(getState(dirty,errors))" @click="clickAppend()">
             <span v-html="getAppend()"></span>
           </div>
-          <input :id="fieldId" :ref="fieldRef"
+          <input :id="fieldId"
+                 :ref="fieldRef"
                  v-model="state.value"
                  :class="prepostFix(getState(dirty,errors))"
                  :name="fieldName"
