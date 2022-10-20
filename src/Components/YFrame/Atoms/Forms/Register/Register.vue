@@ -81,7 +81,7 @@
 </template>
 
 <script>
-import YTitle from './../Title.vue'
+import YTitle from './Title.vue'
 import YInputText from "../Inputs/InputText.vue"
 import YCheckBox from "../Checks/CheckBox.vue"
 import YButtonPrimary from "../Buttons/ButtonPrimary.vue"
@@ -93,7 +93,7 @@ export default {
     inheritAttrs: false,
 
     components: {
-        YTitle,
+        // YTitle,
         YInputText,
         YCheckBox,
         YButtonPrimary,
