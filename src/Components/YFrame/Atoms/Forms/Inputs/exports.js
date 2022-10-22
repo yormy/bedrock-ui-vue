@@ -6,9 +6,9 @@ import YInputPhone from "./InputPhone.vue"
 
 
 export {
-    YInputBase,
-    YInputCode,
-    YInputLabel,
-    YInputText,
-    YInputPhone
+YInputBase,
+YInputCode,
+YInputLabel,
+YInputText,
+YInputPhone
 }
