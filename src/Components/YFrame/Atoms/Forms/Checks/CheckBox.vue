@@ -54,7 +54,7 @@
 <script>
 import YPurifiedHtml from '../../Display/PurifiedHtml.vue';
 import YModalInfo from '../../Alerts/Modals/ModalInfo.vue';
-import ValidationInput from '../Helpers/ValidationInput.vue';
+import ValidationInput from '../Validation/ValidationInput.vue';
 
 /**
  * Checkbox

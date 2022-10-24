@@ -23,6 +23,9 @@ export default {
     ],
     external: [
         '@consts/const',
+        '@config/config_js.json',
+        '@config/localization',
+        'vue2-dropzone/dist/vue2Dropzone.min.css'
         // 'quill/dist/quill.core.css',
         // 'quill/dist/quill.snow.css',
         // 'quill/dist/quill.bubble.css'

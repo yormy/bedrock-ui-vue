@@ -66,7 +66,7 @@
 
 
 <script>
-import ValidationInput from '../Helpers/ValidationInput.vue';
+import ValidationInput from '../Validation/ValidationInput.vue';
 import YModalInfo from '../../Alerts/Modals/ModalInfo.vue';
 import YInputLabel from './InputLabel.vue'
 
