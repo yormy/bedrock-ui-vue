@@ -1,5 +1,5 @@
 <script>
-import {isEmpty} from 'bedrock-core-vue'
+import { isEmpty } from '../../../../../Plugins/helpers'
 
 export default {
     props: {
